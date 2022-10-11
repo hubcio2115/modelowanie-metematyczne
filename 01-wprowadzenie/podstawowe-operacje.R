@@ -126,6 +126,16 @@ abline(h=0, col="grey")
 abline(v=0, col="grey")
 
 #wiecej na temat funkcji 'curve', 'abline' dowiesz sie piszac w konsoli ?curve, ?abline
+t=seq(0, 2*pi, pi/6)
+y=sin(t)
+plot(t, y, type="l", col="green")
+
+a=seq(0, 2*pi, pi/6)
+b=cos(a)
+lines(a, b, type="l", col="blue")
+
+abline(v=0)
+abline(a=0, b=0)
 
 #=========================
 #========================= ZADANIE B 
